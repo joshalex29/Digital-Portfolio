@@ -1,0 +1,521 @@
+ul {
+  list-style-type: none;
+  display: flex;
+  background-image: url("Monhun Web Images/rust (1).avif");
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* justify-content: space-between; */
+  /* border-radius: 30px; */
+  height: 80px;
+}
+ul li:first-child {
+}
+ul li:nth-child(2) {
+  margin-left: auto;
+}
+li {
+  align-content: center;
+}
+
+li a {
+  display: flex;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 24px;
+  padding-bottom: 14px;
+  text-decoration: none;
+  height: 140px;
+  transition: background-image 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+}
+
+li a:hover{
+  background-image: url("Monhun Web Images/yeleen.jpg");
+  color: rgb(153, 103, 9);
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+  transition-delay: 0s;
+  text-decoration: none;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  border: 2.5px;
+  margin-top: 40px;
+  border-radius: 7px;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+.center2 {
+  margin-left: auto;
+  margin-right: auto;
+  color: #a57500;
+}
+.container{
+  width: 900px;
+  align-items: center;
+  justify-content: center;
+}
+.left {
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+.right {
+  height: 100%;
+}
+.div-transparent {
+  position: relative;
+  width: 100%;
+  text-align: justify;
+}
+.div-transparent::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 135%;
+  background-image: url("Monhun Web Images/thefive.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.25;
+  z-index: -1;
+}
+.title {
+  margin: 0;
+  border-radius: 0 0 10px 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #853700;
+  width: 380px;
+  font-family: Georgia, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  background-position: center;
+  background-image: url("Monhun Web Images/scroll.avif");
+}
+body {
+  margin: 0;
+  height: 100vh;
+}
+.split {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.top {
+  background-image: url("Monhun Web Images/rust (1).avif");
+  height: 40%;
+}
+.middle {
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("Monhun Web Images/thefive.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #d4ffbc;
+  font-size: 28px;
+  padding: 17.5px 20px 35px 20px;
+  height: 83%;
+  font-family: Georgia, sans-serif;
+}
+.carouselwidth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.carousel-inner iframe {
+  display: block;
+  margin: 0 auto;
+}
+.border {
+  background-size: cover;
+  background-position: center;
+  background-image: url("Monhun Web Images/scales.avif");
+  height: 13.5%;
+}
+.bottom {
+  /* display: flex; */
+  margin: 0;
+  padding: 0;
+  justify-content: space-evenly;
+}
+.bottom::before {
+  content: "";
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  height: 143%;
+  width: 100%;
+  opacity: 0.5;
+  z-index: -1;
+  background-image: url("Monhun Web Images/dragon.webp");
+}
+.middle2 {
+  margin-left: 350px;
+  margin-right: 350px;
+  background-image: url("Monhun Web Images/scroll.avif");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-size: 17px;
+  color: #3b2a01;
+  padding: 10px;
+}
+.paragraph {
+  color: #bf8507;
+  font-family: serif;
+  padding-left: 120px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.paragraph3 {
+  color: #c58c10;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+.box {
+  color: #c0902a;
+  font-family: system-ui;
+  padding-left: 30px;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+.box2 {
+  color: #c18b16;
+  font-family: system-ui;
+  margin-top: 10px;
+}
+.paragraph2 {
+  font-family: sans-serif;
+  margin: 17px;
+  width: 1000px;
+}
+.pict {
+  border-radius: 30px;
+  width: 815px;
+  height: 450px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.tabletitle {
+  color: #6a4b00;
+}
+
+.flex {
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+}
+
+.flex > div {
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.pictx {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
+
+.pictancient {
+  width: 100%;
+  height: 210px;
+  border-radius: 5px;
+  aspect-ratio: 3/4;
+}
+
+.pictprime {
+  width: 160px;
+  height: 80px;
+  justify-content: center;
+
+  margin-bottom: 50px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: background-image 0.3s ease, color 0.3s ease;
+}
+.pictprime:hover:not(.active) {
+  background-image: url("Monhun Web Images/fire.avif");
+  color: rgb(153, 103, 9);
+  transition-delay: 0.35s;
+}
+.wilds,
+.rssb,
+.mhwi,
+.mhgu,
+.mh4u,
+.mh3u,
+.mhfu,
+.mh1g,
+.mh1 {
+  position: relative;
+}
+.wilds::before,
+.wilds::after,
+.rssb::before,
+.rssb::after,
+.mhwi::before,
+.mhwi::after,
+.mhgu::before,
+.mhgu::after,
+.mh4u::before,
+.mh4u::after,
+.mh3u::before,
+.mh3u::after,
+.mhfu::before,
+.mhfu::after,
+.mh1g::before,
+.mh1g::after,
+.mh1::before,
+.mh1::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-size: cover;
+  background-position: center;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+.wilds::before,
+.rssb::before,
+.mhwi::before,
+.mhgu::before,
+.mh4u::before,
+.mh3u::before,
+.mhfu::before,
+.mh1g::before,
+.mh1::before {
+  background-image: var(--card-image);
+}
+.wilds::after,
+.rssb::after,
+.mhwi::after,
+.mhgu::after,
+.mh4u::after,
+.mh3u::after,
+.mhfu::after,
+.mh1g::after,
+.mh1::after {
+  background-image: var(--card-hover-image);
+  opacity: 0;
+}
+.wilds:hover::after,
+.rssb:hover::after,
+.mhwi:hover::after,
+.mhgu:hover::after,
+.mh4u:hover::after,
+.mh3u:hover::after,
+.mhfu:hover::after,
+.mh1g:hover::after,
+.mh1:hover::after {
+  opacity: 1;
+}
+.wilds > a,
+.rssb > a,
+.mhwi > a,
+.mhgu > a,
+.mh4u > a,
+.mh3u > a,
+.mhfu > a,
+.mh1g > a,
+.mh1 > a {
+  position: relative;
+  z-index: 1;
+}
+.wilds {
+  --card-image: url("Monhun Web Images/windardalt.webp");
+  --card-hover-image: url("Monhun Web Images/windwardincle.webp");
+  display: flex;
+  width: 25%;
+  padding: 25px;
+  border-radius: 5px;
+  align-items: center;
+  transition: transform 0.3s ease, font-size 0.3s ease, filter 0.3s ease,
+    color 0.3s ease;
+}
+.wilds:hover {
+  transform: scale(1.05);
+  color: rgb(255, 255, 255);
+  filter: drop-shadow(0 0 1rem rgb(210, 185, 255));
+  /* 1 rem = 16 px */
+}
+.rssb {
+  --card-image: url("Monhun Web Images/kamura.webp");
+  --card-hover-image: url("Monhun Web Images/elgado-outpost.jpg");
+  display: flex;
+  width: 25%;
+  padding: 25px;
+  border-radius: 5px;
+  align-items: center;
+  transition: transform 0.3s ease, font-size 0.3s ease, filter 0.3s ease,
+    color 0.3s ease;
+}
+.rssb:hover {
+  transform: scale(1.05);
+  color: rgb(255, 255, 255);
+  filter: drop-shadow(0 0 1rem rgb(255, 0, 0));
+}
+.mhwi {
+  --card-image: url("Monhun Web Images/aforest.webp");
+  --card-hover-image: url("Monhun Web Images/hoarforst.jpg");
+  display: flex;
+  width: 25%;
+  padding: 25px;
+  border-radius: 5px;
+  align-items: center;
+  transition: transform 0.3s ease, font-size 0.3s ease, filter 0.3s ease,
+    color 0.3s ease;
+}
+.mhwi:hover {
+  transform: scale(1.05);
+  color: rgb(255, 255, 255);
+  filter: drop-shadow(0 0 1rem rgb(78, 55, 255));
+}
+.mhgu {
+  --card-image: url("Monhun Web Images/bherna.jpg");
+  --card-hover-image: url("Monhun Web Images/mhguhub.webp");
+  display: flex;
+  width: 25%;
+  padding: 25px;
+  border-radius: 5px;
+  align-items: center;
+  transition: transform 0.3s ease, font-size 0.3s ease, filter 0.3s ease,
+    color 0.3s ease;
+}
+.mhgu:hover {
+  transform: scale(1.05);
+  color: rgb(255, 255, 255);
+  filter: drop-shadow(0 0 1rem rgb(255, 53, 2));
+}
+.mh4u {
+  --card-image: url("Monhun Web Images/ancestral.webp");
+  --card-hover-image: url("Monhun Web Images/speartipcrag.webp");
+  display: flex;
+  width: 25%;
+  padding: 25px;
+  border-radius: 5px;
+  align-items: center;
+  transition: transform 0.3s ease, font-size 0.3s ease, filter 0.3s ease,
+    color 0.3s ease;
+}
+.mh4u:hover {
+  transform: scale(1.05);
+  color: rgb(255, 255, 255);
+  filter: drop-shadow(0 0 1rem rgb(255, 189, 56));
+}
+.mh3u {
+  --card-image: url("Monhun Web Images/tanzia.webp");
+  --card-hover-image: url("Monhun Web Images/Tainted-Sea.avif");
+  display: flex;
+  width: 25%;
+  padding: 25px;
+  border-radius: 5px;
+  align-items: center;
+  transition: transform 0.3s ease, font-size 0.3s ease, filter 0.3s ease,
+    color 0.3s ease;
+}
+.mh3u:hover {
+  transform: scale(1.05);
+  color: rgb(255, 255, 255);
+  filter: drop-shadow(0 0 1rem rgb(60, 0, 255));
+}
+.mhfu {
+  --card-image: url("Monhun Web Images/mhfumap.webp");
+  --card-hover-image: url("Monhun Web Images/tower.webp");
+  display: flex;
+  width: 25%;
+  padding: 25px;
+  border-radius: 5px;
+  align-items: center;
+  height: 36vh;
+  transition: transform 0.3s ease, font-size 0.3s ease, filter 0.3s ease,
+    color 0.3s ease;
+}
+.mhfu:hover {
+  transform: scale(1.05);
+  color: rgb(255, 255, 255);
+  filter: drop-shadow(0 0 1rem rgb(113, 0, 0));
+}
+.mh1g {
+  --card-image: url("Monhun Web Images/KokotoVillage.webp");
+  --card-hover-image: url("Monhun Web Images/minegarde.webp");
+  display: flex;
+  width: 25%;
+  padding: 25px;
+  border-radius: 5px;
+  align-items: center;
+  height: 36vh;
+  transition: transform 0.3s ease, font-size 0.3s ease, filter 0.3s ease,
+    color 0.3s ease;
+}
+.mh1g:hover {
+  transform: scale(1.05);
+  color: rgb(255, 255, 255);
+  filter: drop-shadow(0 0 1rem rgb(0, 72, 255));
+}
+.mh1 {
+  --card-image: url("Monhun Web Images/oldjungle.webp");
+  --card-hover-image: url("Monhun Web Images/fire.avif");
+  display: flex;
+  width: 25%;
+  padding: 25px;
+  border-radius: 5px;
+  align-items: center;
+  height: 36vh;
+  transition: transform 0.3s ease, font-size 0.3s ease, filter 0.3s ease,
+    color 0.3s ease;
+}
+.mh1:hover {
+  transform: scale(1.05);
+  color: rgb(255, 255, 255);
+  filter: drop-shadow(0 0 1rem rgb(255, 126, 66));
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  background-image: url("Monhun Web Images/woodboard2.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 10px;
+  outline: 2px solid rgb(94, 64, 1);
+  margin-top: 20px;
+  transition: transform 0.3s ease, outline 0.3s ease, filter 0.3s ease;
+  border-radius: 10px;
+}
+.btn:hover {
+  outline: 2px solid rgb(255, 166, 0);
+  color: white;
+  transform: scale(1.03);
+  filter: drop-shadow(0 0 0.3rem rgb(255, 166, 0));
+  text-decoration: none;
+}
+.flex a:hover {
+  text-decoration: none;
+}

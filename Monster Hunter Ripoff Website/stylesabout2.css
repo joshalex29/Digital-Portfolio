@@ -1,0 +1,143 @@
+ul {
+  list-style-type: none;
+  display: flex;
+  background-image: url("Monhun Web Images/rust (1).avif");
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* justify-content: space-between; */
+  /* border-radius: 30px; */
+  height: 80px;
+}
+ul li:first-child {
+}
+ul li:nth-child(2) {
+  margin-left: auto;
+}
+li {
+  align-content: center;
+}
+
+li a {
+  display: flex;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 28px;
+  padding-bottom: 14px;
+  text-decoration: none;
+  height: 140px;
+  transition: text-shadow 0.3s ease, color 0.3s ease, background-image 0.3s ease;
+}
+
+li a:hover{
+  background-image: url("Monhun Web Images/yeleen.jpg");
+  color: rgb(153, 103, 9);
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+  transition-delay: 0s;
+}
+body {
+  margin: 0;
+  height: 100vh;
+}
+.pictprime {
+  width: 120px;
+  height: 70px;
+  justify-content: center;
+  margin-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: background-image 0.3s ease, color 0.3s ease;
+}
+.pictprime:hover:not(.active) {
+  background-image: url("Monhun Web Images/fire.avif");
+  color: rgb(153, 103, 9);
+  transition-delay: 0.35s;
+}
+
+.middle {
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-left: 0;
+  margin-right: 0; */
+  padding-top: 0;
+}
+
+.middle::before {
+  content: "";
+  position: absolute;
+  background-image: url("Monhun Web Images/wildswallpaper.webp");
+  background-size: cover;
+  background-position: center;
+  height: 970px;
+  padding: 10px;
+  width: 98.7%;
+  opacity: 0.75;
+  z-index: -1;
+}
+
+.about-text {
+  margin: 30px;
+  background-image: url("Monhun Web Images/scroll.avif");
+  padding: 20px;
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  color: #4e2d00;
+  font-size: 23px;
+  background-position: center;
+  background-size: cover;
+  font-family: Georgia, sans-serif;
+  margin-bottom: 12.5%;
+  margin-top: 30px;
+  transition: filter 0.3s ease;
+}
+.about-text:hover{
+  filter: drop-shadow(0 0 0.5rem rgb(0, 0, 0));
+}
+.about-text2 {
+  background-image: url("Monhun Web Images/scroll.avif");
+  padding: 25px;
+  max-width: 35%;
+  margin: 0 auto;
+  text-align: center;
+  color: #4e2d00;
+  font-size: 21.5px;
+  background-position: center;
+  background-size: cover;
+  font-family: Georgia, sans-serif;
+  margin-right: 13%;
+  transition: filter 0.3s ease;
+}
+.about-text2:hover{
+  filter: drop-shadow(0 0 0.5rem rgb(0, 0, 0));
+}
+.a {
+  color: rgb(140, 17, 17);
+  transition: color 0.3s ease;
+}
+.a:hover {
+  color: rgb(211, 0, 0);
+}
+.about-text3 {
+  background-image: url("Monhun Web Images/rust (1).avif");
+  border-radius: 10px;
+  margin-top: 82.5px;
+  margin-left: 10px;
+  padding: 2px;
+  max-width: 15%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 17px;
+  background-position: center;
+  background-size: cover;
+  transition: filter 0.3s ease;
+}
+.about-text3:hover{
+  filter: drop-shadow(0 0 0.5rem rgb(0, 0, 0));
+}
