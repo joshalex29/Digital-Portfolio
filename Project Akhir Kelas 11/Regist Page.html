@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Domine' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Exo 2' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet'>
+    <title>ALX Travel Agency - Registration</title>
+    <style>
+        .navbar{
+            background-color: rgb(255, 255, 195);
+            font-family: "Poppins";
+            color:rgb(62, 56, 5);
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+        }
+        .textsubtitle{
+            font-family: 'Exo 2';
+            color: rgb(66, 41, 3);
+            font-size: 40px;
+            text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+        }
+        .bodyback{
+            background-image: url("Travel Agency Images/landscape.webp");
+            background-position: center;
+            background-size: cover;
+        }
+        .formstyle{
+            background-image: url("Travel Agency Images/formback.jpg");
+            background-position: center;
+            background-size: cover;
+            padding: 30px;
+            border-radius: 15px;
+            font-family: "Cabin";
+        }
+        .btn{
+            font-family: 'Poppins';
+            background-image: url("Travel Agency Images/buttonback.jpg");
+            background-position: center;
+            background-size: cover;
+            outline: 2px solid rgb(164, 112, 0);
+            transition: transform 0.3s ease;
+        }
+        .btn:hover {
+            outline: 2px solid rgb(255, 213, 0);
+            transform: scale(1.05);
+        }
+
+    </style>
+</head>
+<body class="bodyback">
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="Home Page.html">ALX Travel Agency</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="Home Page.html">Beranda</a></li>
+            <li class="nav-item"><a class="nav-link" href="Content Page.html">Konten</a></li>
+            <li class="nav-item active"><a class="nav-link" href="Regist Page.html">Pendaftaran</a></li>
+            <li class="nav-item"><a class="nav-link" href="Contact Page.html">Contact Us</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">
+        <div class="textsubtitle">
+            <strong>Pendaftaran Member</strong>
+        </div> 
+    </h2>
+    <form class="formstyle">
+        <div class="form-group">
+            <label for="name">Nama Lengkap</label>
+            <input type="text" class="form-control" id="name" placeholder="Masukkan nama lengkap" required>
+        </div>
+        <div class="form-group">
+            <label for="radio">Jenis Kelamin</label>
+            <br>
+            <input type="radio" id="male" name="Gender" value="M">
+            <label for="M">Laki-Laki</label><br>
+            <input type="radio" id="css" name="Gender" value="F">
+            <label for="F">Perempuan</label><br>
+        </div>
+        <div class="form-group">
+            <label for="birthday">Tanggal Lahir</label>
+            <br>
+            <input type="date" id="birthday" name="birthday">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Masukkan email" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Nomor Telepon</label>
+            <input type="number" class="form-control" id="phone" placeholder="Masukkan nomor telepon" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Kata Sandi</label>
+            <input type="password" class="form-control" id="password" placeholder="Masukkan kata sandi" required>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Daftar Sekarang!</button>
+    </form>
+</div>
+<br>
+<br>
+<br>
+<br>
+<footer class="footer text-center">
+    <div class="container">
+        <small>© 2025 ALX Travel Agency. All rights reserved.</small>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

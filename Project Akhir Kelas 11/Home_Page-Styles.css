@@ -1,0 +1,69 @@
+.bodyback{
+    background-image: url("Travel Agency Images/wood.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    background-color: rgb(255, 255, 195);
+    font-family: "Poppins";
+}
+.jumbotron {
+    background: url('Travel Agency Images/peru.jpg') center center/cover no-repeat;
+    color: white;
+}
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+.display-4{
+    font-family: 'Domine';
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.lead{
+    font-family: 'Domine';
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 28px;
+}
+.btn{
+    font-family: 'Poppins';
+    background-image: url("Travel Agency Images/buttonback.jpg");
+    background-size: cover;
+    background-position: center;
+    outline: 2px solid rgb(164, 112, 0);
+    transition: outline 0.3s ease, transform 0.3s ease;
+}
+.btn:hover {
+    outline: 2px solid rgb(255, 213, 0);
+    transform: scale(1.05);
+}
+.card {
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+    background-color: rgb(255, 243, 198);
+    color: rgb(51, 36, 2);
+}
+.card-img-top {
+    height: 235px;
+}
+.card-text {
+    height: 80px;
+    font-family: 'Exo 2';
+    text-align: justify;
+}
+.card-title {
+    font-family: 'Exo 2';
+}
+.textsubtitle{
+    font-family: 'Exo 2';
+    color: rgb(66, 41, 3);
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+    font-size: 40px;
+}
+.carousel-inner{
+    height: 570px;
+    width: 1110px;
+    align-content: center;
+}
